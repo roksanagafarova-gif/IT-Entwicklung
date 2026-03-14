@@ -1,0 +1,112 @@
+ body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center; 
+    min-height: 100vh;      
+    text-align: center;     
+}
+
+ span {
+     font-style: italic;
+     /*контент*/
+
+ }
+
+ .list-conteiner {
+     border-style: solid;
+     display: inline-block;
+     border-width: 0, 5;
+     padding-right: 20 px;
+
+ }
+
+ .list-conteiner>p {
+     text-align: center;
+     font-weight: bold;
+
+ }
+
+ .img-conteiner {
+     float: right;
+     border-style: solid;
+     padding: 5 px;
+     margin-left: 10 px;
+ }
+
+ .img-conteiner>div {
+     display: flex;
+     /*justify-content: center;*/
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .logo-html {
+     max-width: 70 px;
+ }
+
+ /*верхний нав панель*/
+
+ .nav-conteiner {
+     display: flex;
+     justify-content: space-between;
+     background-color: rgb(129, 171, 244);
+ }
+
+ .nav-conteiner>nav>ul {
+     display: flex;
+     list-style: none;
+     align-items: center ;
+     margin: 0;
+     padding: 0;
+ }
+
+ .nav-conteiner>nav>ul>li>a {
+     display: block;
+     padding: 10 px;
+     border-style: solid;
+     border-width: 0, 5 px;
+ }
+
+
+
+ @media (max-width: 900 px)
+ {
+    .nav-conteiner {
+        flex-direction: column;
+    }
+ }
+
+.text-page {
+    padding-left: 18 px;
+}
+ 
+ .page {
+    display: flex;
+    justify-content: center;
+
+ }
+ .header {
+  width: 14 %;
+  background-color: aquamarine;
+ }
+ .section {
+width: 82 % ;
+ }
+ .header>ol {
+    list-style: none;
+    border-bottom-style: solid;
+    border-width: 0,5 px;
+    margin: 10 px;
+    padding: 0 px;
+    padding-bottom: 10 px;
+ }
+ .header>div {
+    width: 100 %;
+
+ }
+ .header>div>img {
+width: 100 %;
+ }
